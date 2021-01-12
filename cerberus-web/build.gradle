@@ -65,7 +65,7 @@ dependencies {
   implementation "com.amazonaws:aws-java-sdk-kms:${versions.awsSdkVersion}"
   implementation "com.amazonaws:aws-java-sdk-sts:${versions.awsSdkVersion}"
   implementation "com.amazonaws:aws-java-sdk-secretsmanager:${versions.awsSdkVersion}"
-  implementation 'com.amazonaws:aws-encryption-sdk-java:1.6.1'
+  implementation 'com.amazonaws:aws-encryption-sdk-java:2.0.0'
 
   //dist tracing
   implementation 'com.nike.wingtips:wingtips-spring-boot:0.23.1'
